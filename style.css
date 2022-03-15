@@ -1,0 +1,21 @@
+:root{
+    --color-blue: #44daf5;
+    --color-pink: #ff42ab;
+}
+
+img{
+    width: 100%;
+    z-index: -1;
+}
+
+
+@import url(//www.fontspace.com/rondal-font-f49787);
+
+
+h1{
+    font-family: Rondal Font;
+    font-size: 4rem;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+}
