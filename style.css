@@ -3,19 +3,74 @@
     --color-pink: #ff42ab;
 }
 
-img{
-    width: 100%;
-    z-index: -1;
+
+body{
+    background-image: linear-gradient(#ff42ab, #44daf5, #ffffff);
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 
-@import url(//www.fontspace.com/rondal-font-f49787);
+.container {
+    position: relative;
+    text-align: center;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+
+.cover{
+    width: 100%;
+    border-bottom: 10px solid var(--color-pink);
+}
+.arrow{
+    width: 25%;
+}
 
 h1{
-    font-family: Rondal Font;
-    font-size: 4rem;
+    font-family: onyx;
+    font-size: 10rem;
+    font-weight: lighter;
+    letter-spacing: 20px;
     text-align: center;
+    margin-top: -100px;
     color: #000000;
-    z-index: 1;
+}
+
+h2{
+    font-family: freestyle script;
+    font-size: 5rem;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 0.6;
+    margin-top: -120px;
+    color: #ffffff;
+}
+
+.text1{
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -20px;
+    color:#000000;
+}
+
+
+.credits{
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color:#000000;
+}
+
+.video{
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
 }
