@@ -11,11 +11,671 @@ body{
 }
 
 
-/* desktop størrelse */
+/* mobil størrelse - under 280px */
+@media screen and (max-width: 280px){
+    /* landing - mobil */
+    /* billed med tekst oven på */
+    .desktopContainer{
+        display: none;
+    }
+    .phoneContainer{
+        position: relative;
+        text-align: center;
+    }
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* billed med tekst oven på */
+
+    /* baggrunds billed og pil */
+    .phoneCover{
+        width: 100%;
+        border-bottom: 10px solid var(--color-pink);
+    }
+    .arrow{
+        width: 25%;
+    }
+
+    h1{
+        font-family: onyx;
+        font-size: 6rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -100px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 3.2rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -80px;
+        color: #ffffff;
+    }
+
+    .text1{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -20px;
+        color:#000000;
+    }
+
+
+    /* video og credits */
+    .credits{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-bottom: 60px;
+        color:#000000;
+    }
+
+    .video{
+        display: block;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+
+    /* footer grid */
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #ffffff;
+        width: 100%;
+        align-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .grid-item1{
+        display: block;
+        width: 65%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 40px 20px 0 20px;
+    }
+
+    .grid-item2{
+        padding: 20px 10px 0 0;
+    }
+
+    .SoMe{
+        float: left;
+        width: 15%;
+        padding-right: 5px;
+    }
+    .text2{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 0.8rem;
+        color:#000000;
+    }
+}
+
+/* mobil størrelse - over 280px */
+@media screen and (min-width: 280px){
+    /* landing - mobil */
+    /* billed med tekst oven på */
+    .desktopContainer{
+        display: none;
+    }
+    .phoneContainer{
+        position: relative;
+        text-align: center;
+    }
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* billed med tekst oven på */
+
+    /* baggrunds billed og pil */
+    .phoneCover{
+        width: 100%;
+        border-bottom: 10px solid var(--color-pink);
+    }
+    .arrow{
+        width: 25%;
+    }
+
+    h1{
+        font-family: onyx;
+        font-size: 6rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -100px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 3.2rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -80px;
+        color: #ffffff;
+    }
+
+    .text1{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -20px;
+        color:#000000;
+    }
+
+
+    /* video og credits */
+    .credits{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+        margin-bottom: 60px;
+        color:#000000;
+    }
+
+    .video{
+        display: block;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+
+    /* footer grid */
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #ffffff;
+        width: 100%;
+        align-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .grid-item1{
+        display: block;
+        width: 65%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 40px 20px 0 20px;
+    }
+
+    .grid-item2{
+        padding: 20px 10px 0 0;
+    }
+
+    .SoMe{
+        float: left;
+        width: 15%;
+        padding-right: 5px;
+    }
+    .text2{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 0.8rem;
+        color:#000000;
+    }
+}
+
+
+/* mobil størrelse - over 350px */
+@media screen and (min-width: 350px){
+    /* landing - mobil */
+    /* billed med tekst oven på */
+    .desktopContainer{
+        display: none;
+    }
+    .phoneContainer{
+        position: relative;
+        text-align: center;
+    }
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* billed med tekst oven på */
+
+    /* baggrunds billed og pil */
+    .phoneCover{
+        width: 100%;
+        border-bottom: 10px solid var(--color-pink);
+    }
+    .arrow{
+        width: 25%;
+    }
+
+    h1{
+        font-family: onyx;
+        font-size: 6rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -100px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 3.4rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -80px;
+        color: #ffffff;
+    }
+
+    .text1{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+        color:#000000;
+    }
+
+
+    /* video og credits */
+    .credits{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 60px;
+        color:#000000;
+    }
+
+    .video{
+        display: block;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 25px;
+    }
+
+
+    /* footer grid */
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #ffffff;
+        width: 100%;
+        align-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .grid-item1{
+        display: block;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 30px 20px 0 20px;
+    }
+
+    .grid-item2{
+        padding: 15px 10px 0 0;
+    }
+
+    .SoMe{
+        float: left;
+        width: 15%;
+        padding-right: 5px;
+    }
+    .text2{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 0.8rem;
+        color:#000000;
+    }
+}
+
+
+/* mobil størrelse - over 400px */
+@media screen and (min-width: 400px){
+    /* landing - mobil */
+    /* billed med tekst oven på */
+    .desktopContainer{
+        display: none;
+    }
+    .phoneContainer{
+        position: relative;
+        text-align: center;
+    }
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* billed med tekst oven på */
+
+    /* baggrunds billed og pil */
+    .phoneCover{
+        width: 100%;
+        border-bottom: 10px solid var(--color-pink);
+    }
+    .arrow{
+        width: 25%;
+    }
+
+    h1{
+        font-family: onyx;
+        font-size: 8rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -160px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 4rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -100px;
+        color: #ffffff;
+    }
+
+    .text1{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -10px;
+        color:#000000;
+    }
+
+
+    /* video og credits */
+    .credits{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 60px;
+        color:#000000;
+    }
+
+    .video{
+        display: block;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 25px;
+    }
+
+
+    /* footer grid */
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #ffffff;
+        width: 100%;
+        align-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .grid-item1{
+        display: block;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 20px 20px 0 20px;
+    }
+
+    .grid-item2{
+        padding: 15px 30px 0 0;
+    }
+
+    .SoMe{
+        float: left;
+        width: 15%;
+        padding-right: 5px;
+    }
+    .text2{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 0.8rem;
+        color:#000000;
+    }
+}
+
+/* mobil størrelse - fiks af tekst over 450px */
+@media screen and (min-width: 450px){
+    h1{
+        font-family: onyx;
+        font-size: 8rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -300px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 4rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -100px;
+        color: #ffffff;
+    }
+}
+
+/* mobil størrelse - fiks af tekst over 500px */
+@media screen and (min-width: 500px){
+    h1{
+        font-family: onyx;
+        font-size: 8rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -400px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 4rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -100px;
+        color: #ffffff;
+    }
+
+    .grid-item1{
+        width: 40%;
+    }
+}
+
+/* mobil størrelse - fiks af tekst over 570px */
+@media screen and (min-width: 570px){
+    h1{
+        font-family: onyx;
+        font-size: 9rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -450px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 4.5rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -120px;
+        color: #ffffff;
+    }
+
+    .grid-item1{
+        width: 35%;
+    }
+}
+
+/* mobil størrelse - fiks af tekst over 600px */
+@media screen and (min-width: 600px){
+    h1{
+        font-family: onyx;
+        font-size: 9rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -500px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 4.5rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -120px;
+        color: #ffffff;
+    }
+
+    .text2{
+        font-size: 1rem;
+    }
+}
+
+
+/* desktop størrelse - udskift af cover billede over 650px */
+@media screen and (min-width: 650px){
+    /* landing - desktop, default */
+    /* billed med tekst oven på */
+    .desktopContainer{
+        display: contents;
+        position: relative;
+        text-align: center;
+    }
+    .phoneContainer{
+        display: none;
+    }
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* billed med tekst oven på */
+
+    /* baggrunds billed og pil */
+    .cover{
+        width: 100%;
+        border-bottom: 10px solid var(--color-pink);
+    }
+    .arrow{
+        width: 25%;
+    }
+
+    h1{
+        font-family: onyx;
+        font-size: 8rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -140px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 4rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -100px;
+        color: #ffffff;
+    }
+
+    .text1{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -20px;
+        color:#000000;
+    }
+
+
+    /* video og credits */
+    .credits{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 60px;
+        color:#000000;
+    }
+
+    .video{
+        display: block;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 60px;
+    }
+
+
+    /* footer grid */
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #ffffff;
+        width: 100%;
+        align-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .grid-item1{
+        display: block;
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 10px 20px 0 20px;
+    }
+
+    .grid-item2{
+        padding-top: 20px;
+    }
+
+    .SoMe{
+        float: left;
+        width: 10%;
+        padding-right: 5px;
+    }
+    .text2{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        color:#000000;
+    }
+}
+
+
+/* desktop størrelse - over 800px */
 @media screen and (min-width: 800px){
     /* landing - desktop, default */
     /* billed med tekst oven på */
     .desktopContainer{
+        display: contents;
         position: relative;
         text-align: center;
     }
@@ -66,115 +726,57 @@ body{
         margin-top: -20px;
         color:#000000;
     }
-}
 
 
-/* mobil størrelse */
-@media screen and (max-width: 800px){
-    /* landing - mobil */
-    /* billed med tekst oven på */
-    .desktopContainer{
-        display: none;
-    }
-    .phoneContainer{
-        position: relative;
-        text-align: center;
-    }
-    .text{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    /* billed med tekst oven på */
-
-    /* baggrunds billed og pil */
-    .phoneCover{
-        width: 100%;
-        border-bottom: 10px solid var(--color-pink);
-    }
-    .arrow{
-        width: 25%;
-    }
-
-    h1{
-        font-family: onyx;
-        font-size: 10rem;
-        font-weight: lighter;
-        letter-spacing: 20px;
-        text-align: center;
-        margin-top: -100px;
-        color: #000000;
-    }
-
-    h2{
-        font-family: freestyle script;
-        font-size: 5rem;
-        font-weight: lighter;
-        text-align: center;
-        line-height: 0.6;
-        margin-top: -120px;
-        color: #ffffff;
-    }
-
-    .text1{
+    /* video og credits */
+    .credits{
         font-family: 'Arial', Helvetica, sans-serif;
         font-size: 1rem;
         text-align: center;
-        margin-top: -20px;
+        margin-bottom: 60px;
         color:#000000;
     }
-}
+
+    .video{
+        display: block;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 60px;
+    }
 
 
-/* video og credits */
-.credits{
-    font-family: 'Arial', Helvetica, sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    margin-bottom: 60px;
-    color:#000000;
-}
+    /* footer grid */
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #ffffff;
+        width: 100%;
+        align-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-.video{
-    display: block;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 60px;
-}
+    .grid-item1{
+        display: block;
+        width: 35%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 20px 0 20px;
+    }
 
+    .grid-item2{
+        padding-top: 20px;
+    }
 
-/* footer grid */
-.grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: #ffffff;
-    width: 100%;
-    align-content: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.grid-item1{
-    display: block;
-    width: 35%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 20px 0 20px;
-}
-
-.grid-item2{
-    padding-top: 20px;
-}
-
-.SoMe{
-    float: left;
-    width: 6%;
-    padding-right: 5px;
-}
-.text2{
-    font-family: 'Arial', Helvetica, sans-serif;
-    font-size: 1rem;
-    color:#000000;
+    .SoMe{
+        float: left;
+        width: 6%;
+        padding-right: 5px;
+    }
+    .text2{
+        font-family: 'Arial', Helvetica, sans-serif;
+        font-size: 1rem;
+        color:#000000;
+    }
 }
