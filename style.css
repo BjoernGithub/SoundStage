@@ -3,7 +3,6 @@
     --color-pink: #ff42ab;
 }
 
-
 body{
     background-image: linear-gradient(#ff42ab, #44daf5, #ffffff);
     background-repeat: no-repeat;
@@ -89,7 +88,7 @@ body{
     /* footer grid */
     .grid{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
         background-color: #ffffff;
         width: 100%;
         align-content: center;
@@ -120,6 +119,7 @@ body{
         color:#000000;
     }
 }
+
 
 /* mobil størrelse - over 280px */
 @media screen and (min-width: 280px){
@@ -199,7 +199,7 @@ body{
     /* footer grid */
     .grid{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
         background-color: #ffffff;
         width: 100%;
         align-content: center;
@@ -266,7 +266,7 @@ body{
         font-weight: lighter;
         letter-spacing: 20px;
         text-align: center;
-        margin-top: -100px;
+        margin-top: -140px;
         color: #000000;
     }
 
@@ -310,7 +310,7 @@ body{
     /* footer grid */
     .grid{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
         background-color: #ffffff;
         width: 100%;
         align-content: center;
@@ -377,7 +377,7 @@ body{
         font-weight: lighter;
         letter-spacing: 20px;
         text-align: center;
-        margin-top: -160px;
+        margin-top: -240px;
         color: #000000;
     }
 
@@ -421,7 +421,7 @@ body{
     /* footer grid */
     .grid{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
         background-color: #ffffff;
         width: 100%;
         align-content: center;
@@ -431,7 +431,7 @@ body{
 
     .grid-item1{
         display: block;
-        width: 50%;
+        width: 60%;
         margin-right: auto;
         margin-left: auto;
         padding: 20px 20px 0 20px;
@@ -461,7 +461,7 @@ body{
         font-weight: lighter;
         letter-spacing: 20px;
         text-align: center;
-        margin-top: -300px;
+        margin-top: -340px;
         color: #000000;
     }
 
@@ -473,6 +473,10 @@ body{
         line-height: 0.6;
         margin-top: -100px;
         color: #ffffff;
+    }
+
+    .SoMe{
+        width: 10%;
     }
 }
 
@@ -497,10 +501,6 @@ body{
         margin-top: -100px;
         color: #ffffff;
     }
-
-    .grid-item1{
-        width: 40%;
-    }
 }
 
 /* mobil størrelse - fiks af tekst over 570px */
@@ -511,7 +511,7 @@ body{
         font-weight: lighter;
         letter-spacing: 20px;
         text-align: center;
-        margin-top: -450px;
+        margin-top: -480px;
         color: #000000;
     }
 
@@ -526,7 +526,11 @@ body{
     }
 
     .grid-item1{
-        width: 35%;
+        width: 50%;
+    }
+
+    .SoMe{
+        width: 8%;
     }
 }
 
@@ -538,7 +542,7 @@ body{
         font-weight: lighter;
         letter-spacing: 20px;
         text-align: center;
-        margin-top: -500px;
+        margin-top: -540px;
         color: #000000;
     }
 
@@ -593,7 +597,7 @@ body{
         font-weight: lighter;
         letter-spacing: 20px;
         text-align: center;
-        margin-top: -140px;
+        margin-top: -160px;
         color: #000000;
     }
 
@@ -637,7 +641,7 @@ body{
     /* footer grid */
     .grid{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
         background-color: #ffffff;
         width: 100%;
         align-content: center;
@@ -647,19 +651,19 @@ body{
 
     .grid-item1{
         display: block;
-        width: 40%;
+        width: 50%;
         margin-right: auto;
         margin-left: auto;
         padding: 10px 20px 0 20px;
     }
 
     .grid-item2{
-        padding-top: 20px;
+        padding: 20px 0 0 60px;
     }
 
     .SoMe{
         float: left;
-        width: 10%;
+        width: 8%;
         padding-right: 5px;
     }
     .text2{
@@ -749,7 +753,7 @@ body{
     /* footer grid */
     .grid{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
         background-color: #ffffff;
         width: 100%;
         align-content: center;
@@ -759,14 +763,14 @@ body{
 
     .grid-item1{
         display: block;
-        width: 35%;
+        width: 50%;
         margin-right: auto;
         margin-left: auto;
         padding: 0 20px 0 20px;
     }
 
     .grid-item2{
-        padding-top: 20px;
+        padding: 20px 0 0 100px;
     }
 
     .SoMe{
@@ -778,5 +782,52 @@ body{
         font-family: 'Arial', Helvetica, sans-serif;
         font-size: 1rem;
         color:#000000;
+    }
+}
+
+
+/* desktop størrelse - fiks af tekst over 950px */
+@media screen and (min-width: 950px){
+    h1{
+        font-family: onyx;
+        font-size: 11rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: -20px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 5.4rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -140px;
+        color: #ffffff;
+    }
+}
+
+/* desktop størrelse - fiks af tekst over 1000px */
+@media screen and (min-width: 1000px){
+    h1{
+        font-family: onyx;
+        font-size: 12rem;
+        font-weight: lighter;
+        letter-spacing: 20px;
+        text-align: center;
+        margin-top: 20px;
+        color: #000000;
+    }
+
+    h2{
+        font-family: freestyle script;
+        font-size: 6rem;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 0.6;
+        margin-top: -160px;
+        color: #ffffff;
     }
 }
